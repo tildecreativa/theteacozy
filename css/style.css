@@ -81,6 +81,8 @@ header {
     position: relative;
     z-index: 1;
     margin-top:70px;
+    display: flex;
+    align-items: center;  
 }
 
 header::before {
@@ -90,10 +92,10 @@ header::before {
     position: absolute;
     left: 0;
     top:0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.5);  
 }
 
-
+/* position absolute + transform
 .hero_text_block {
     background-color: #000;
     height: auto;
@@ -101,6 +103,14 @@ header::before {
     position: absolute;
     top:50%;
     transform: translateY(-50%);
+}
+*/
+
+/*Flex way*/
+.hero_text_block {
+    background-color: #000;
+    height: auto;
+    width: 100%;
 }
 
 /*Main*/
